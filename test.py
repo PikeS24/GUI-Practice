@@ -1,3 +1,6 @@
+#Pike Steck
+#Stan Stojanovich
+
 import tkinter
 from tkinter import *
 class lexerGUI:
@@ -48,4 +51,5 @@ class lexerGUI:
 if __name__ == '__main__':
     myTkRoot = Tk()
     lexer_gui = lexerGUI(myTkRoot)
+
     myTkRoot.mainloop()
